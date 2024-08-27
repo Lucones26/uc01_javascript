@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Lógica e Algoritmos - Exercícios</title>
+  </head>
+
+  <body>
+    <script type="text/javascript">
+      <!-- insira seu código aqui -->
+      let nome;
+      let notaPor;
+
+      nome = prompt("Qual seu nome ?");
+      notaPor = prompt("Qual sua nota em Portugues ?");
+      let notaMat = prompt("Qual sua nota em Matematica ?");
+      let notaGerais = prompt("Qual sua nota em Conhecimentos) Gerais");
+
+      notaPor = parseFloat(notaPor);
+      notaMat = parseFloat(notaMat);
+      notaGerais = parseFloat(notaGerais);
+
+      let media = (notaPor + notaMat + notaGerais) / 3;
+
+      alert ("media = " + media);
+      if (media >= 5) {
+        console.log("Aprovado");
+        alert("Aprovado");
+      } else {
+        console.log("Reprovado");
+        alert("Reprovado");
+      }
+    </script>
+  </body>
+</html>

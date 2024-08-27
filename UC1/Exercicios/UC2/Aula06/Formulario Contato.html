@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<body>
+    <header></header>
+
+    <form method="post" action="#">
+
+        <label for= "idNome">Nome</label>
+        <input type="text" name="idNome">
+
+        <label for="idEmail">E-mail</label>
+        <input type="email" name="email" id="idEmail">
+
+        <label for="idIdade">Idade</label>
+        <input type="number" min="18" max="120" id="idIdade">
+
+        <label for="idAssunto">Assunto</label>
+        <select name="assunto" id="idAssunto">
+            <option value="Cadastro">Cadastro</option>
+            <option value="Duvida">Duvida</option>
+            <option value="Fofoca">Fofoca</option>
+        </select>
+        <label for="idMensagem">Mensagem</label>
+        <textarea name="mensagem" rows="30" cols="50"></textarea>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+
+    <footer></footer>
+</body>
+</html>

@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    background-color: rgb(213, 216, 179);
+    padding: 10px 0;
+}
+
+img{
+    width: 150px
+}
+
+.menu-logo {
+    width: 940px;
+    position: relative;
+    margin: auto;
+}
+
+#menu-horizontal {
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+
+#menu-horizontal ul li a {
+    color: #024b4b;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 2px;
+
+}
+
+#menu-horizontal ul li a:hover {
+    color: rgb(224, 134, 30);
+    border-bottom: 1px solid rgb(224, 134, 30);
+}
